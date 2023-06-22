@@ -33,7 +33,7 @@ class HashTable {
             for (let i = 0; i < currentBucket.length; i++) {
                 // Consider the currentBucket to consist of ['name', 'Viki'], ['age', 30]
                 if (currentBucket[i][0] === key) { // If 'name' === key or 'age' === key
-                    return currentBucket[i][0] // return value
+                    return currentBucket[i][1] // return value
                 }
             } 
         }

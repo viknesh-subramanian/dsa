@@ -2,12 +2,12 @@
 // It should return 2 - the first recurring character
 
 function recurring(input) {
-    let map = {}; // O(n) space complexity
+    let map = {}; 
     for (let i = 0; i < input.length; i++) { // O(n) time complexity
         if (map[input[i]]) {
             return input[i]
         } else {
-            map[input[i]] = true;
+            map[input[i]] = true; // O(n) space complexity
         }
     }
     return undefined;
