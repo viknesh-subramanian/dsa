@@ -32,3 +32,12 @@
 #### Cons:
 * Slow lookups
 * Consumes more memory
+
+### Stacks and Queues
+#### Pros:
+* Fast operations
+* Fast peek
+* Ordered
+
+#### Cons:
+* Slow lookups

@@ -82,4 +82,24 @@ class SinglyLinkedList {
         this.length--;
         return this.print();
     }
+
+    // O(n)
+    reverse() {
+        if (!this.head.next) {
+            return this.head;
+        }
+        let first = this.head;
+        this.tail = this.head;
+        let second = first.next;
+        while (second) {
+            const third = second.next;
+            second.next = first;
+            first = second;
+            second = third;
+        }
+        this.head.next = null;
+        this.head = first;
+
+        return this.print();
+    }
 }
