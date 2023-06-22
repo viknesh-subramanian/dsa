@@ -3,21 +3,32 @@
 ## Data Structures
 
 ### Arrays
-#### When to use:
+#### Pros:
 * During lookups
 * During push/pop
 * Ordered
-#### When not to use:
+#### Cons:
 * During inserts
 * During deletes
 * Fixed size arrays
 
 ### Hash Tables
-#### When to use:
+#### Pros:
 * During lookups - only if hash collision is adjusted for
 * Fast inserts
 * Flexible keys
 
-#### When not to use:
+#### Cons:
 * Ordering - because Hash tables are unordered by default
 * Key iteration - because key iteration is very slow
+
+### Linked Lists
+#### Pros:
+* Fast inserts
+* Fast deletes
+* Ordered
+* Flexible size
+
+#### Cons:
+* Slow lookups
+* Consumes more memory
