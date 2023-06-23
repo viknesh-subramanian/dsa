@@ -41,3 +41,22 @@
 
 #### Cons:
 * Slow lookups
+
+### Binary Search Trees
+#### Pros:
+* Better than O(n)
+* Flexible size
+* Ordered
+
+#### Cons:
+* No O(1) operations
+
+### Binary Heaps
+#### Pros:
+* Better than O(n)
+* Priority
+* Flexible size
+* Fast insert
+
+#### Cons:
+* Slow lookups
