@@ -60,3 +60,10 @@
 
 #### Cons:
 * Slow lookups
+
+### Graphs
+#### Pros:
+* Relationships
+
+#### Cons:
+* Scaling is hard
