@@ -30,3 +30,12 @@ const reverse4 = str => {
     if(!str || typeof str != 'string' || str.length < 2 ) return str;
     return [...str].reverse().join('')
 }
+
+// Reversing a string using recursion
+function reverse_recursion(str) {
+    if (str === "") {
+        return "";
+    } else {
+        return reverse_recursion(str.substr(1)) + str.charAt(0);
+    }
+}

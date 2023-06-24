@@ -67,3 +67,14 @@
 
 #### Cons:
 * Scaling is hard
+
+## Algorithms
+
+### Recursion
+#### Pros:
+* DRY (Don't Repeat Yourself) - enable reusability
+* Readability
+
+#### Cons:
+* Large stack
+* Space complexity
