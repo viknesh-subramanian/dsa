@@ -1,0 +1,41 @@
+Question:
+Sort 10 schools around your house by distance
+Answer:
+Insertion sort because of fixed inputs
+
+Question:
+eBay sorts listings by the current Bid amount:
+Answer:
+Radix or Counting sort because of numbers involved
+
+Question:
+Sport scores on ESPN
+Answer:
+Quick sorting because of fear of time complexity management.
+
+Question:
+Massive database (can't fit all into memory) needs to sort through past year's user data
+Answer:
+Merge sort because of fear of time complexity. The sorting is going to be external so we dont need to worry a lot about space complexity (the trade-off)
+
+Question:
+Almost sorted Udemy review data needs to update and add 2 new reviews
+Answer:
+Insertion sort because its almost sorted
+
+Question:
+Temperature Records for the past 50 years in Canada
+Answer:
+Radix or Counting sort if numbers are involved
+Quick sort if decimals are involved
+
+Question:
+Large user name database needs to be sorted. Data is very random.
+Answer:
+Merge sort because of fear of time complexity. The assumption is that the sorting is going to be external so we dont need to worry a lot about space complexity (the trade-off)
+Quick sorting because of fear of time complexity management.
+
+Question:
+You want to teach sorting for the first time
+Answer:
+Bubble sort
