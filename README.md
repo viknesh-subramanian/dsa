@@ -78,3 +78,19 @@
 #### Cons:
 * Large stack
 * Space complexity
+
+### Breadth-first Search (BFS)
+#### Pros:
+* Shortest path
+* Closer nodes
+
+#### Cons:
+* Space complexity - takes more memory
+
+### Depth-first Search (BFS)
+#### Pros:
+* Lesser memory
+* Asks a question of "Does the path exist from one node to the other"
+
+#### Cons:
+* Time complexity - can get slow

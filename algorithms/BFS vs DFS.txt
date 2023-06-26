@@ -1,0 +1,29 @@
+Question -
+If you know a solution is not far from the root of the tree:
+Answer -
+BFS
+
+Question -
+If the tree is very deep and solutions are rare:
+Answer - 
+BFS (DFS is acceptable too but it takes a long time in such scenarios - uses recursion)
+
+Question -
+If the tree is very wide:
+Answer -
+DFS (BFS is acceptable too but it takes a lot of memory as it needs to keep track of the nodes at the current level)
+
+Question -
+If solutions are frequent but located deep in the tree:
+Answer -
+DFS
+
+Question -
+Determining whether a path exists between two nodes:
+Answer -
+DFS
+
+Question -
+Finding the shortest path:
+Answer -
+BFS
