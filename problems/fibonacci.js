@@ -19,3 +19,24 @@ function fibonacci_recursive(n) {
     }
     return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2);
 }
+
+// O(n)
+function fibonacci_dynamic() {
+    let cache = {};
+    return function fibonacci(n) {
+        if (n in cache) {
+            return cache[n];
+        } else {
+            if (n < 2) {
+                return n;
+            } else {
+                cache[n] = fibonacci(n-1) + fibonacci(n-2);
+                return cache[n];
+            }
+        }
+    }
+}
+
+// Function call
+// const memoize = fibonacci_dynamic();
+// memoize(5);
