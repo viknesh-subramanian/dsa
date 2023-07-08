@@ -4,6 +4,7 @@ class Graph {
         this.adjacentList = {};
     }
     
+    // O(1)
     addVertex(node) {
         if (!this.adjacentList[node]) {
             this.adjacentList[node] = [];
@@ -11,6 +12,7 @@ class Graph {
         }
     }
 
+    // O(1)
     addEdge(node1, node2) {
         if (!this.adjacentList[node1]) {
             this.addVertex(node1);
@@ -22,6 +24,7 @@ class Graph {
         this.adjacentList[node2].push(node1);
     }
 
+    // O(n)
     showConnections() {
         const all_nodes = Object.keys(this.adjacentList);
         for (let node of all_nodes) {
