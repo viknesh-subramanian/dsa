@@ -113,8 +113,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +179,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sorting Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +195,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sorting Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,9 +216,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Sorting Algorithm.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -241,21 +236,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4054a79506341c7f",
+  "active": "97ef1508fbd86064",
   "lastOpenFiles": [
-    "Tree.md",
+    "Queue.md",
+    "O(N).md",
     "Sorting Algorithm.md",
+    "Hash Table.md",
+    "Tree.md",
     "Array.md",
     "Hash Set.md",
-    "Hash Table.md",
-    "Queue.md",
     "Stack.md",
     "Linked List.md",
     "O(2 exp N).md",
     "O(N!).md",
     "O(N exp 2).md",
     "O(N log(N)).md",
-    "O(N).md",
     "O(log(N)).md",
     "O(1).md"
   ]

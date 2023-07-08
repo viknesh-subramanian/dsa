@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\Work\\Development\\Data Structures and Algorithms\\dsa\\problems\\C#\\problems\\problems.csproj": {}
+  },
+  "projects": {
+    "H:\\Work\\Development\\Data Structures and Algorithms\\dsa\\problems\\C#\\problems\\problems.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Work\\Development\\Data Structures and Algorithms\\dsa\\problems\\C#\\problems\\problems.csproj",
+        "projectName": "problems",
+        "projectPath": "H:\\Work\\Development\\Data Structures and Algorithms\\dsa\\problems\\C#\\problems\\problems.csproj",
+        "packagesPath": "C:\\Users\\Viknesh\\.nuget\\packages\\",
+        "outputPath": "H:\\Work\\Development\\Data Structures and Algorithms\\dsa\\problems\\C#\\problems\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Viknesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
