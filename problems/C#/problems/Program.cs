@@ -17,7 +17,7 @@ Console.WriteLine("Hello, World!");
 // Remove Duplicates
 // int[] array = new int[] { 2, 1, 1, 0, 0, 1, 2, 2, 2 };
 // Console.WriteLine($"{array.Length} is the old length");
-// int output = TwoPointers.RemoveDuplicates(array);
+// int output = TwoPointers.RemoveDuplicatesNonTwoPointer(array);
 // Console.WriteLine($"{output} is the new length");
 
 
@@ -38,8 +38,8 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine($"{output} are the indices");
 
 // Valid Palindrome
-// string text = "A brown fox jumping over";
-// bool output = TwoPointers.IsPalindrome(text);
+// string text = "A man, a plan, a canal: Panama";
+// bool output = TwoPointers.IsPalindromeAlt(text);
 // Console.WriteLine(output);
 
 // Largest Subarray sum
@@ -55,6 +55,52 @@ Console.WriteLine("Hello, World!");
 // Console.WriteLine($"{output} is the largest size of the subarray");
 
 // Longest length without repeat characters
-string text = "aawerttty";
-int output = TwoPointers.LongestWithoutCharRepeat(text);
-Console.WriteLine($"{output} is the largest size without character repeat");
+// string text = "aawerttty";
+// int output = TwoPointers.LongestWithoutCharRepeat(text);
+// Console.WriteLine($"{output} is the largest size without character repeat");
+
+// Smallest Subarray
+// int[] array = new int[] { 1, 2, 3, 4, 5 };
+// int target = 15;
+// int output = TwoPointers.SubarraySmallest(array, target);
+// Console.WriteLine($"{output} is the largest size of the subarray");
+
+// Reverse Vowels
+// string s = "queue";
+// string output = TwoPointers.ReverseVowels(s);
+// Console.WriteLine($"Original string -> {s} Reversed vowels string -> {output}");
+
+// Compress string
+// string s = "aabbccc";
+// int output = TwoPointers.Compress(s.ToCharArray());
+// Console.WriteLine(output);
+
+// Merge Sorted Array
+// int[] nums1 = new int[] {1, 2, 3, 0, 0, 0};
+// int m = 3;
+// int[] nums2 = new int[] { 4, 5, 6 };
+// int n = 3;
+// TwoPointers.MergeSortedArrays(nums1, m, nums2, n);
+
+// Integer to Roman numerals
+// string roman = Arrays.IntToRoman(1994);
+// Console.WriteLine(roman);
+
+// Length of last word
+// string s = "   fly me   to   the moon  ";
+// int output = Arrays.LengthOfLastWord(s);
+// Console.WriteLine(output);
+
+// Reverse words
+// string s = "   fly me   to   the moon  ";
+// string output = Arrays.ReverseWords(s);
+// Console.WriteLine(output);
+
+// Reverse words 2
+// char[] s = new char[] { 't', 'h', 'e', ' ', 's', 'k', 'y', ' ', 'i', 's', ' ', 'b', 'l', 'u', 'e' };
+// Arrays.ReverseWords(s);
+
+// Best time to sell a stock
+int[] prices = new int[] { 7, 6, 4, 3, 1 };
+int output = Arrays.MaxProfit(prices);
+Console.WriteLine(output.ToString());
