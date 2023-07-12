@@ -13,7 +13,6 @@ namespace problems
             Dictionary<int, int> kv = new Dictionary<int, int>();
             for (int i = 0; i < int_array.Length; i++)
             {
-                Console.WriteLine(int_array[i]);
                 if (kv.ContainsKey(int_array[i]))
                     return int_array[i];
                 else
